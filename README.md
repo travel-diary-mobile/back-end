@@ -7,8 +7,6 @@ Este é o repositório do front-end do aplicativo **Travel Diary Mobile**, uma a
    ```bash
    https://www.mediafire.com/file/7q4wcrsxt4a7epc/application-fd521f38-f6b9-4ee7-9329-5483675831cc.apk/file
 
-)
-   
 - **Link do figma:**
 
    ```bash
