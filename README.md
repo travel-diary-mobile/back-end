@@ -4,6 +4,28 @@ Construído com Node.js, Express e MongoDB, este backend fornece uma API RESTful
 
 ---
 
+## 📑 Índice
+
+- [📖 Sobre o Projeto](#-travel-diary---backend)
+- [📂 Estrutura de Diretórios](#-estrutura-de-diretórios)
+  - [📁 config/](#-config)
+  - [📁 controllers/](#-controllers)
+  - [📁 services/](#-services)
+  - [📁 entity/](#-entity)
+  - [📁 dto/](#-dto)
+  - [📁 repository/](#-repository)
+  - [📄 TravelApplication.java](#-travelapplicationjava)
+- [⚙️ Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [🚀 Como Rodar o Backend Localmente](#-como-rodar-o-backend-localmente)
+- [✨ Funcionalidades](#-funcionalidades)
+- [🔒 Segurança](#-segurança-configurada-com-cors-global)
+- [🧪 Testando com Postman](#-testando-com-postman)
+- [🧭 Documentação da API](#-documentação-da-api)
+- [📱 Links Importantes](#-links-importantes)
+- [📄 Licença](#-licença)
+
+---
+
 ## 📂 Estrutura de Diretórios
 A estrutura do projeto é organizada da seguinte forma:
 
