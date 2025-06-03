@@ -1,6 +1,8 @@
-## 📖 Travel Diary Backend
-Este é o backend da aplicação Travel Diary, uma plataforma para documentar e compartilhar experiências de viagem.
-Construído com Node.js, Express e MongoDB, este backend fornece uma API RESTful para gerenciar usuários, entradas de diário e interações sociais.
+## 📖 Travel Diary - Backend
+
+O **Travel Diary - Backend** é a API responsável por gerenciar toda a lógica de dados da plataforma **Travel Diary**, uma aplicação voltada para o registro e compartilhamento de experiências de viagem.
+
+Desenvolvido com **Spring Boot** e **MySQL**, este backend expõe uma API RESTful robusta que permite o gerenciamento de usuários, criação e edição de entradas de diário, além de funcionalidades sociais como favoritos. Ele foi projetado para oferecer performance, segurança e escalabilidade, servindo como base para a aplicação mobile.
 
 ---
 
