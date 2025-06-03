@@ -24,23 +24,50 @@ backend/
 │
 └── TravelApplication.java               #Classe principal da aplicação Spring Boot                
 ```
+---
 
 ## 📁 config/
-Contém arquivos de configuração do projeto.
-
+- Contém arquivos de configuração do projeto.
 db.js: Configurações de conexão com o banco de dados MongoDB.
 
-## 📁 controllers/
-Contém a lógica de controle para as rotas da API.
+---
 
+## 📁 controllers/
+- Contém a lógica de controle para as rotas da API.
 userController.js: Funções para registro, login e gerenciamento de usuários.
 
-faça o resto chatgpt
+---
+
+## 📁 services/
+Contém a lógica de negócio da aplicação.
+
+DiarioViagensService.java: Implementa as regras e operações relacionadas à manipulação de diários, como salvar, listar, buscar por ID, e excluir.
+
+---
 
 ## 📁 entity/
-Define os esquemas e modelos de dados.
+Define as entidades que representam as tabelas do banco de dados.
 
-User.js: Modelo de usuário com campos como nome, email e senha.
+DiarioViagens.java: Representa a entidade "Diário de Viagem", com atributos como título, descrição, destino, data de início e fim.
+
+---
+
+## 📁 dto/
+Contém os Data Transfer Objects (DTOs), usados para transportar dados entre camadas de forma otimizada.
+
+DiarioViagensDTO.java: Define o formato dos dados que serão transferidos entre a camada de apresentação e a de serviço, evitando expor diretamente a entidade.
+
+---
+
+## 📁 repository/
+Contém as interfaces de acesso ao banco de dados.
+
+DiarioViagensRepository.java: Interface que estende `JpaRepository`, responsável por operações de persistência como salvar, buscar, deletar e atualizar diários.
+
+---
+
+## 📄 TravelApplication.java
+Classe principal responsável por iniciar a aplicação Spring Boot. É o ponto de entrada da API Travel Diary.
 
 ---
 
