@@ -39,21 +39,13 @@ Este é o repositório do front-end do aplicativo **Travel Diary Mobile**, uma a
 ## 📁 Estrutura de pasta
 
 ```
-   Front-end/
-   ├── assets/             # Recursos estáticos como imagens e fontes
-   ├── components/         # Componentes reutilizáveis da interface
-   ├── context/            # Gerenciamento de rotas do Back-end
-   ├── navigation/         # Configuração de rotas e navegação
-   └── pages/            # Telas principais da aplicação
-      └── Splash/
-      └── Inical/
-      └── Adicionar/
-      └── Editar/
-      └── Deletar/
-      └── Favoritar/
-      └── Visualizar/
-   └──  services/           # Serviços para comunicação com APIs
-      └── Visualizar/
-   ├── App.js              # Arquivo principal da aplicação
-   └── package.json        # Dependências e scripts do projeto
+   Back-end/
+   └── travel/            # Pasta principal
+      ├── Entity/
+      ├── Dto/
+      ├── Repository/
+      ├── Service/
+      ├── Controller/
+      └── config/
+      └── TravelApplication.java
 ```
